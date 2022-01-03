@@ -4,4 +4,6 @@ Rails.application.routes.draw do
   get "/articles", to: "articles#index"
 
   get "/welcome", to: "welcome#index"
+
+  resources :groups
 end
